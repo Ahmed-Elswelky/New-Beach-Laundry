@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  direction: rtl;
+  height: 100vh;
+  box-sizing: border-box;
+  line-height: 1.5;
+  /* background: linear-gradient(to bottom, #285f04, #98c98e); */
+  color: #000000;
+  text-align: center;
+}
+
+:root {
+  --blue-color: #0672C2 ;
+  --gray-color:#757373 ;
+}
+header {
+  margin-top: 10px;
+}
+
+.logo p {
+  font-size: 20px;
+  color: var(--gray-color);
+}
+.logo img {
+  width: 80px;
+}
+
+.slider p {
+  direction: rtl;
+  font-size: 30px;
+  color:var(--gray-color);
+  text-align: center;
+}
+.slider img {
+  width: 90%;
+}
+.contact {
+  margin-top: 50px;
+}
+.contact .row p {
+  border: 2px solid var(--gray-color);
+  border-radius: 60px;
+  width: 90%;
+  margin: 20px auto;
+  text-decoration: none;
+  padding: 10px;
+  color: var(--gray-color);
+
+}
+.numbers {
+  margin: auto;
+}
+.contact span {
+  display: block;
+}
+
+.services {
+  background: linear-gradient(253deg, rgba(132,170,215,1) 0%, rgba(255,255,255,1) 75%, rgba(255,255,255,1) 100%);
+  padding: 20px;
+}
+.services img {
+  width: 70%;
+}
+.services p {
+text-align: center;
+  font-size: 60px;
+  color: var(--blue-color);
+  direction: rtl;
+}
+.services-content {
+  text-align: center;
+}
+
+.services-content p {
+  font-size: 30px;
+  margin-top: 10px;
+
+}
+.service5-img{
+  width: 400px;
+}
+p {
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--gray-color);
+}
+span {
+  font-weight: 900;
+  color: var(--blue-color);
+}
+.locations {
+  background: linear-gradient(180deg, rgba(196,196,196,1) 0%, rgba(255,255,255,1) 75%, rgba(255,255,255,1) 100%);
+
+}
+.locations p{
+  text-align: center;
+  font-size: 60px;
+  color: var(--blue-color);
+}
+.locations a {
+  text-decoration: none;
+  font-size: 19px;
+  font-weight: 600;
+  color: var(--blue-color);
+  border: 2px solid var(--gray-color);
+  border-radius: 10px;
+  padding: 6px;
+  display: block;
+  width: 70%;
+  margin: auto;
+  transition: all .2s ease-in-out;
+}
+.locations a:hover {
+  background-color: var(--gray-color);
+  color: white;
+}
+.locations a:hover i {
+  color:white;
+}
+.locations i {
+  color: var(--gray-color);
+  font-size: 25px;
+  margin-left: 7px;
+}
+.locations iframe {
+  border: 2px solid var(--gray-color);
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.locations img {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+footer {
+  background-color: var(--gray-color);
+  margin: 20px 0 0 0;
+  padding: 7px;
+}
+footer p {
+  color: white;
+  font-size: 20px;
+  margin: 0;
+}
+
+
+@media (max-width:770px) {
+  header {
+    margin: auto;
+
+  }
+  span {
+    font-weight: 600;
+  }
+}
